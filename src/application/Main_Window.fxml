@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane fx:id="backgroundAnchorPane" prefHeight="525.0" prefWidth="750.0" style="-fx-background-color: #00897B;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField id="white" fx:id="hex" alignment="CENTER" focusTraversable="false" layoutX="228.0" layoutY="146.0" onKeyReleased="#hexActionHandler" prefHeight="63.0" prefWidth="223.0" promptText="hex" styleClass="text-field" AnchorPane.leftAnchor="228.0" AnchorPane.rightAnchor="228.0">
+               <font>
+                  <Font name="Gotham-ExtraLight" size="36.0" />
+               </font>
+            </TextField>
+            <TextField id="white" fx:id="rgb" alignment="CENTER" focusTraversable="false" layoutX="228.0" layoutY="275.0" onKeyReleased="#rgbActionHandler" prefHeight="63.0" prefWidth="294.0" promptText="rgb" styleClass="field" AnchorPane.leftAnchor="228.0" AnchorPane.rightAnchor="228.0">
+               <font>
+                  <Font name="Gotham-ExtraLight" size="36.0" />
+               </font>
+            </TextField>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
